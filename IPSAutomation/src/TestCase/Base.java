@@ -11,7 +11,7 @@ public class Base {
 	{
 		System.setProperty("webdriver.chrome.driver", "../IPSAutomation/chromedriver.exe");
 		 driver= new ChromeDriver();
-		driver.get("http://ips.accumedia.in/");
+		driver.get("http://test.ips.accumedia.in/");
 		driver.manage().window().maximize();
 	}
 
